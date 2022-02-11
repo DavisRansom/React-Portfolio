@@ -1,27 +1,24 @@
 import logo from './Logo.png';
-import './App.css';
-import Nav from './components/Nav.js';
-
+import Section from './Section.js';
+import Footer from '/components/Footer.js';
+import Header from './Header.js';
+import AboutMe from './AboutMe';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Nav />
-        <p>
-         Ian is a fantastic tutor.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Javascript first
-        </a>
-      </header>
-    </div>
+<>
+<Header />
+
+<main>
+<AboutMe />
+<Portfolio />
+
+<Contact />
+</main>
+
+<Footer />
+</>
+
   );
 }
 
