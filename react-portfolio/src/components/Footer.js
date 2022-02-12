@@ -1,4 +1,6 @@
 import React from "react";
+import linkedInPic from "./Linkedin-logo-png-white.png";
+import gitHubPic from "./kindpng_1280233.png";
 
 function Footer() {
   return (
@@ -9,7 +11,10 @@ function Footer() {
 
       <a href="https://www.linkedin.com/in/davis-ransom-499b31210/">
         Linked In </a>
+        <img src={linkedInPic} alt="Linked In" />
+        
       <a href="https://github.com/DavisRansom">Github Profile Page </a>
+      <img src={gitHubPic} alt="GitHub" />
 
       <p>Created by Davis Ransom in January 2022</p>
     </footer>

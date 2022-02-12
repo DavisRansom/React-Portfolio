@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import davisPic from "./davisBigBeard.jpg";
 import shadyMarketPlacePic from "./shadyMarketplace.png";
 
-function Portfolio() {
+function Portfolio1() {
   return (
-    <section id="portfolio">
+    <section id="portfolio1">
       <img src={shadyMarketPlacePic} alt="E-Commerce Store" />
 
       <p>
@@ -18,4 +17,4 @@ function Portfolio() {
   );
 }
 
-export default Portfolio;
+export default Portfolio1;
