@@ -1,18 +1,20 @@
 import React, { useState } from "react";
 import sciFiPic from "./sciFiApiSearchApp.png";
 
-function Portfolio3() {
+function SciFiAPI() {
   return (
-    <section id="portfolio3">
+    <figure>
       <img src={sciFiPic} alt="Sci-Fi TV Show API Search App" />
 
-      <p>
+      <figcaption>
         <a href="https://davisransom.github.io/sci-fi-tvshow-hub/">
           Sci-Fi TV Show Hub
         </a>
-        is a simple API app that users can go to in order to gather all of the information about any of their favorite Sci-Fi tv shows. </p>
-    </section>
+        is a simple API app that users can go to in order to gather all of the
+        information about any of their favorite Sci-Fi tv shows.{" "}
+      </figcaption>
+    </figure>
   );
 }
 
-export default Portfolio3;
+export default SciFiAPI;

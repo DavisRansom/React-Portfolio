@@ -2,23 +2,21 @@ import Footer from './components/Footer.js';
 import Header from './components/Header.js';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
-import Portfolio1 from './components/Portfolio1';
-import Portfolio2 from './components/Portfolio2';
-import Nav from './components/Nav';
-
+import Portfolio from './components/Portfolio';
+import DavisBigBeard from './components/davisBigBeard.jpg';
 
 function App() {
   return (
 <>
 <Header />
-<Nav />
 
 <main>
 <AboutMe />
-<Portfolio1 />
-<Portfolio2 />
+<Portfolio />
+
 
 <Contact />
+<img src={DavisBigBeard}/>
 </main>
 
 <Footer />

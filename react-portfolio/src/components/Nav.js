@@ -1,24 +1,17 @@
-import React, { useState } from "react";
+import React from "react";
 
 function Nav() {
   return (
-    <section id="nav">
-      <ul>
-        <li>
-            <a href="/">About Me</a>
-        </li>
-        <li>
-            <a href="/">Portfolio</a>
-        </li>
-        <li>
-            <a href="/">Contact</a>
-        </li>
-        <li>
-            <a href="/">Resume</a>
-        </li>
+    <nav>
+            <a href="#aboutMe">About Me</a>
+      
+            <a href="#portfolio">Portfolio</a>
         
-      </ul>
-    </section>
+            <a href="#contact">Contact</a>
+       
+            <a href="#resume">Resume</a>
+      
+    </nav>
   );
 }
 

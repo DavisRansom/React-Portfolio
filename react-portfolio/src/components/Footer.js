@@ -10,11 +10,12 @@ function Footer() {
       <p>davis.ransom.tech@gmail.com</p>
 
       <a href="https://www.linkedin.com/in/davis-ransom-499b31210/">
-        Linked In </a>
         <img src={linkedInPic} alt="Linked In" />
-        
-      <a href="https://github.com/DavisRansom">Github Profile Page </a>
-      <img src={gitHubPic} alt="GitHub" />
+      </a>
+
+      <a href="https://github.com/DavisRansom">
+        <img src={gitHubPic} alt="GitHub" />
+      </a>
 
       <p>Created by Davis Ransom in January 2022</p>
     </footer>

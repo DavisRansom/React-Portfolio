@@ -1,20 +1,20 @@
 import React, { useState } from "react";
 import shadyMarketPlacePic from "./shadyMarketplace.png";
 
-function Portfolio1() {
+function ShadyMarketPlace() {
   return (
-    <section id="portfolio1">
+    <figure>
       <img src={shadyMarketPlacePic} alt="E-Commerce Store" />
 
-      <p>
+      <figcaption>
         <a href="https://e-commerce-store-w-stripe-2022.herokuapp.com/">
           The Shady Marketplace
         </a>
         is a complete, working E-commerce site. The store uses Stripe to process
         payments.
-      </p>
-    </section>
+      </figcaption>
+    </figure>
   );
 }
 
-export default Portfolio1;
+export default ShadyMarketPlace;
