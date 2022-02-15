@@ -3,8 +3,8 @@ import Header from './components/Header.js';
 import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
-import DavisBigBeard from './components/davisBigBeard.jpg';
 import Resume from './components/Resume';
+import davisBigBeard from './components/davisBigBeard.jpg';
 
 function App() {
   return (
@@ -12,6 +12,7 @@ function App() {
 <Header />
 
 <main>
+
 <AboutMe />
 <Portfolio />
 
@@ -19,6 +20,7 @@ function App() {
 <Contact />
 
 <Resume />
+<img src={davisBigBeard} alt="Davis Big Beard" />
 </main>
 
 

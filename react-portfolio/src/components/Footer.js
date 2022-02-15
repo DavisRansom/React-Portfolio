@@ -1,6 +1,7 @@
 import React from "react";
 import linkedInPic from "./Linkedin-logo-png-white.png";
 import gitHubPic from "./kindpng_1280233.png";
+import reactLogo from './reactlogo.svg';
 
 function Footer() {
   return (
@@ -17,6 +18,8 @@ function Footer() {
       <a href="https://github.com/DavisRansom">
         <img src={gitHubPic} alt="GitHub" />
       </a>
+
+      <img src={reactLogo} alt="React Logo" />
 
       <p>Created by Davis Ransom in January 2022</p>
     </footer>
