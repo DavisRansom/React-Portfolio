@@ -4,6 +4,7 @@ import AboutMe from './components/AboutMe';
 import Contact from './components/Contact';
 import Portfolio from './components/Portfolio';
 import DavisBigBeard from './components/davisBigBeard.jpg';
+import Resume from './components/Resume';
 
 function App() {
   return (
@@ -16,8 +17,11 @@ function App() {
 
 
 <Contact />
-<img src={DavisBigBeard}/>
+<img src={DavisBigBeard} alt="DavisBigBeard"/>
+
+<Resume />
 </main>
+
 
 <Footer />
 </>
