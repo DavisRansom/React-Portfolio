@@ -20,6 +20,7 @@ function Footer() {
       </a>
 
       <img src={reactLogo} alt="React Logo" />
+      <p>Email me to check out my resume!</p>
 
       <p>Created by Davis Ransom in January 2022</p>
     </footer>

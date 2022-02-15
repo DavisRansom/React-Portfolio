@@ -1,16 +1,15 @@
-import React, { useState } from "react";
+import React from "react";
 import shadyMarketPlacePic from "./shadyMarketplace.png";
 
 function ShadyMarketPlace() {
   return (
     <figure>
-      <img src={shadyMarketPlacePic} alt="E-Commerce Store" />
-
       <figcaption>
-        <a href="https://e-commerce-store-w-stripe-2022.herokuapp.com/">
-          The Shady Marketplace
-        </a>
-        is a complete, working E-commerce site. The store uses Stripe to process
+      <a href="https://e-commerce-store-w-stripe-2022.herokuapp.com/">
+        <img src={shadyMarketPlacePic} alt="The Shady Marketplace" />
+      </a>
+        
+        The Shady Marketplace is a complete, working E-commerce site. Administrators can login to add or remove products. Users can login and buy items they find in the store or sell in the store themselves. The store uses Stripe to process
         payments.
       </figcaption>
     </figure>
@@ -18,3 +17,4 @@ function ShadyMarketPlace() {
 }
 
 export default ShadyMarketPlace;
+
