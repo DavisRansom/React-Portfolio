@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
+import DavisBigBeard from './davisBigBeard.jpg';
 
 function Contact(){
 return <section id="contact">
+  <img src={DavisBigBeard} alt="DavisBigBeard"/>
 <h2>Contact Me</h2>
 
 <form>

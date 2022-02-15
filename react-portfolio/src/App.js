@@ -17,7 +17,6 @@ function App() {
 
 
 <Contact />
-<img src={DavisBigBeard} alt="DavisBigBeard"/>
 
 <Resume />
 </main>

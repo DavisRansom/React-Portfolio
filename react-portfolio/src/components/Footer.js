@@ -5,7 +5,8 @@ import gitHubPic from "./kindpng_1280233.png";
 function Footer() {
   return (
     <footer>
-      <h2>How To Contact Davis</h2>
+      <h2>Davis Ransom</h2>
+      <h4>Web Developer</h4>
       <p>619.204.2957</p>
       <p>davis.ransom.tech@gmail.com</p>
 
